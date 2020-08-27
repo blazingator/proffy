@@ -10,15 +10,17 @@
   npm start
 ```
 > Servidor inicia em localhost:3333
+
 ## Rotas da api                  
-    - /connections | POST | GET
-    - /classes | POST
-    - /classes | GET
-        - parametros:  
-            - week_day: inteiro [0,6]
-            - subject: texto
-            - time: inteiro
-                           
+- /connections | POST | GET
+- /classes | POST
+- /classes | GET
+  - parametros:  
+    - week_day: inteiro [0,6]
+    - subject: texto
+    - time: inteiro
+
+
 ### Front End Web
 ```sh
   cd ../web  
